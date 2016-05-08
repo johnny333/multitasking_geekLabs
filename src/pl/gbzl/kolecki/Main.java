@@ -37,7 +37,7 @@ class Word extends Thread {
             } catch (InterruptedException e) {
                 System.out.print(e.toString());
             }
-            System.out.println(this.word.charAt(i));
+            System.out.print(this.word.charAt(i));
 
         }
     }
